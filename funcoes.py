@@ -20,3 +20,10 @@ def maior_menor(lista):  # funcao para o desafio 065
         menor = min(dados)
         print(f"[green]Maior: {maior:.2f}[/]")
         print(f"[green]Menor: {menor:.2f}[/]")
+
+def tabuada(numero): # funcao para o desafio 067
+    resultado = 0
+    for i in range(0, 11):
+        resultado = numero * i
+        print(f'\n{numero} x {i} = {resultado}')
+
